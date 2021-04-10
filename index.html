@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>javascript calculator app</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="cal-screen">0</div>
+        <div class="cal-buttons">
+            <div class="row">
+                <div class="set1">
+                    <div class="row">
+                        <button>7</button>
+                        <button>8</button>
+                        <button>9</button>
+                    </div>
+                    <div class="row">
+                        <button>4</button>
+                        <button>5</button>
+                        <button>6</button>
+                    </div>
+                    <div class="row">
+                        <button>1</button>
+                        <button>2</button>
+                        <button>3</button>
+                    </div>
+                    <div class="row">
+                        <button data-action="decimal">.</button>
+                        <button>0</button>
+                        <button data-action="calculate" class="equalTo">=</button>
+                    </div>
+                </div>
+                <div class="set2">
+                    <div><button data-action="clear">CLR</button></div>
+                    <div><button data-action="divide" class="operator">/</button></div>
+                    <div><button data-action="multiply" class="operator">x</button></div>
+                    <div><button data-action="subtract" class="operator">-</button></div>
+                    <div><button data-action="add" class="operator">+</button></div>
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </div>
+</body>
+
+</html>

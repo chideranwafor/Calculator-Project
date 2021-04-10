@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.calculator {
+    width: 380px;
+    font-size: 60px;
+}
+
+.cal-screen {
+    width: 100%;
+    text-align: right;
+    background-color: lightgray;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.row {
+    display: flex;
+}
+
+.set1, button {
+    background-color: rgb(41, 37, 37);
+    color: #fff;
+}
+
+.set2, .set2 button {
+    background-color: grey;
+    color: #000;
+}
+
+button, .set2 button {
+    font-size: 25px;
+    border: none;
+    border-radius: 50%;
+}
+
+button:hover, .set2 button:hover {
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: rgb(239, 239, 239);
+    color: #000;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+}
+
+.set2 button {
+    width: 80px;
+    height: 80px;
+}
